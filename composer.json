@@ -1,0 +1,24 @@
+{
+    "name": "terryleeallenjr/laravel-link",
+    "description": "Allows laravel events to be broadcast to multiple applications using a fast persistant data store.",
+    "type": "laravel-package",
+    "authors": [
+        {
+            "name": "Terry Lee Allen, Jr",
+            "email": "lee.allen.sc@gmail.com"
+        }
+    ],
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "require-dev": {
+        "slim/slim": "^4.4",
+        "slim/psr7": "^1.0",
+        "larapack/dd": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "b1663r\\Link\\": "src/"
+        }
+    }
+}
